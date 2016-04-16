@@ -254,9 +254,12 @@ function create_config( )
     "text",
     "time",
     "webshot",
-    "welcome"
+    "welcome",
+    "up",
+    "auto_leave",
+    "lockfdw"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {108800687},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V3
