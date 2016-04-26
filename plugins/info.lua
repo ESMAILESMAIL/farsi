@@ -26,7 +26,7 @@ local function res_user_callback(extra, success, result) -- /info <username> fun
 	local hash = 'rank:'..extra.chat2..':variables'
 	local value = redis:hget(hash, result.id)
     if not value then
-	 if result.id == tonumber(AmirSbss) then
+	 if result.id == tonumber(Hackertanha) then
 	   text = text..'Rank : Hackertanha \n\n'
 	  elseif is_admin2(result.id) then
 	   text = text..'Rank : Admin \n\n'
@@ -45,7 +45,7 @@ local function res_user_callback(extra, success, result) -- /info <username> fun
   local um_hash = 'msgs:'..result.id..':'..extra.chat2
   user_info_msgs = tonumber(redis:get(um_hash) or 0)
   text = text..'Total messages : '..user_info_msgs..'\n\n'
-  text = text..'#FiGhTeRteam'
+  text = text..'#FiGhTeR_team'
   send_msg(extra.receiver, text, ok_cb,  true)
   else
 	send_msg(extra.receiver, ' Username not found.', ok_cb, false)
@@ -65,7 +65,7 @@ local function action_by_id(extra, success, result)  -- /info <ID> function
   local hash = 'rank:'..extra.chat2..':variables'
   local value = redis:hget(hash, result.id)
   if not value then
-	 if result.id == tonumber(AmirSbss) then
+	 if result.id == tonumber(Hackertanha) then
 	   text = text..'Rank : Hackertanha \n\n'
 	  elseif is_admin2(result.id) then
 	   text = text..'Rank : Admin \n\n'
@@ -103,7 +103,7 @@ local function action_by_reply(extra, success, result)-- (reply) /info  function
 	local hash = 'rank:'..result.to.id..':variables'
 		local value = redis:hget(hash, result.from.id)
 		 if not value then
-		    if result.from.id == tonumber(AmirSbss) then
+		    if result.from.id == tonumber(Hackertanha) then
 		       text = text..'Rank : Hacker tanha \n\n'
 		     elseif is_admin2(result.from.id) then
 		       text = text..'Rank : Admin \n\n'
