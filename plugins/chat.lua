@@ -12,31 +12,31 @@ if msg.text == "hello" then
   return "Hi honey"
 end
 if msg.text == "Salam" then
-  return "Salam aleykom"
+  return "سلام خوبی"
 end
 if msg.text == "salam" then
-  return "va aleykol asalam"
+  return "علیک الاسلام"
 end
-if msg.text == "zac" then
-  return "Nagaeedim"
+if msg.text == "هکر تنها" then
+  return "با بابام چیکار داری؟"
 end
-if msg.text == "Zac" then
-  return "Nagaeedim"
+if msg.text == "هکر تنها کجایی" then
+  return "بابام الان میادش"
 end
-if msg.text == "Sbss" then
+if msg.text == "fighter" then
   return "Is the best"
 end
-if msg.text == "Sbss" then
+if msg.text == "Fighter" then
   return "Is the best"
 end
-if msg.text == "SBSS" then
+if msg.text == "FIGHTER" then
   return "Jnm?"
 end
 if msg.text == "bot" then
-  return "hum?"
+  return "چی میگی?"
 end
 if msg.text == "Bot" then
-  return "Huuuum?"
+  return "جان?"
 end
 if msg.text == "Bye" then
   return "Babay"
@@ -54,15 +54,15 @@ if msg.text == "Slm" then
   return "سلام"
 end
 if msg.text == "بای" then
-  return "اودافظ"
+  return "خداحافظ دوستم"
 end
 if msg.text == "خدافظ" then
   return "Bye Bye"
 end
-if msg.text == "Mr Ahs" then
+if msg.text == "hackertanha" then
   return "چیکار داری بابامو؟"
 end
-if msg.text == "@Mr_Ah_s" then
+if msg.text == "@hackertanha" then
   return "چیکار داری بابامو؟"
 end
 end
@@ -73,19 +73,20 @@ return {
   patterns = {
     "^[Hh]i$",
     "^[Hh]ello$",
-    "^[Zz]ac$",
+    "^هکر تنها$",
+    "^هکر تنها کجایی$",
     "^سلام$",
     "^[Bb]ot$",
     "^[Bb]ye$",
     "^?$",
     "^[Ss]alam$",
-    "^@Mr_Ah_S$",
-    "^Mr Ahs$",
+    "^@hackertanha$",
+    "^hackertanha$",
     "^خدافظ$",
     "^بای$",
     "^[Ss]lm$",
-    "^SBSS$",
-    "^[Ss]bss$",
+    "^FIGHTER$",
+    "^[Ff]ighter$",
     }, 
   run = run,
   pre_process = pre_process
