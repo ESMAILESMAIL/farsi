@@ -1,5 +1,5 @@
 #FiGhTeR V3
-##An Advanced Adminastortion bot based on seed
+##Created An Suorce Sbss Team
 * **Fa & ENG**
 * **Don't Forget stars!**
 * **Sudo & Dev : [Hacker Tanha](telegram/me/Hackertanha)**
