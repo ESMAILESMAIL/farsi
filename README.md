@@ -1,4 +1,4 @@
-#Sbss v3
+#FiGhTeR V3
 ##An Advanced Adminastortion bot based on seed
 * **Fa & ENG**
 * **Don't Forget stars!**
@@ -7,3 +7,5 @@
 * **#See Your Self**
 * **#Be Your Self**
 * **#Do it Your Self**
+* **#Open By [Hacker tanha](http://telegram.me/hackertanha)
+* My Teams [TeleSpeed](http://telespeed.ml)         an       [Nort](http://nort.ir)
