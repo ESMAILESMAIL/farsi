@@ -1,4 +1,4 @@
-HαCkEr Tαηhα Telespeed™ N.O.R.T ™                 FiGhTeR™              TITAN™, [۱۶.۰۴.۱۶ ۲۲:۰۵]
+
 local function callback(extra, success, result)
   vardump(success)
   vardump(result)
