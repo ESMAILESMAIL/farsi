@@ -259,7 +259,7 @@ function create_config( )
     "auto_leave",
     "lockfdw"
     },
-    sudo_users = {108800687},--Sudo users
+    sudo_users = {209270188},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Sbss Bot V3
@@ -274,7 +274,7 @@ function create_config( )
     IM/-\N
     Creed Is Dead
     
-    Powered By @Sbss_Team
+    Powered By EsMailMa
     
     #Open Source
     https://github.com/SbssTeam/Sbss
